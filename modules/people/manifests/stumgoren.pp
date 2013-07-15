@@ -1,6 +1,6 @@
-include people::zstumgoren::applications
+include people::stumgoren::applications
 
-class people::zstumgoren {
+class people::stumgoren {
 
     file {'testfile':
       path   => '/tmp/testfile',
