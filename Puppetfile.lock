@@ -9,6 +9,11 @@ GITHUBTARBALL
     dnsmasq (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.1.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
     gcc (1.0.0)
@@ -24,19 +29,9 @@ GITHUBTARBALL
     homebrew (1.1.2)
 
 GITHUBTARBALL
-  remote: boxen/puppet-hub
+  remote: boxen/puppet-iterm2
   specs:
-    hub (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-nginx
-  specs:
-    nginx (1.4.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-nodejs
-  specs:
-    nodejs (2.2.0)
+    iterm2 (1.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -66,13 +61,12 @@ GITHUBTARBALL
 DEPENDENCIES
   boxen (= 2.1.0)
   dnsmasq (= 1.0.0)
+  dropbox (= 1.1.1)
   gcc (= 1.0.0)
   git (= 1.2.2)
   homebrew (= 1.1.2)
-  hub (= 1.0.0)
   inifile (= 0.9.0)
-  nginx (= 1.4.0)
-  nodejs (= 2.2.0)
+  iterm2 (= 1.0.2)
   repository (= 2.0.2)
   ruby (= 4.1.0)
   stdlib (= 4.0.2)
