@@ -1,4 +1,6 @@
 class people::zstumgoren::applications {
+  #include bash
+  #include bash::completion
   include cyberduck
   include dropbox
   include iterm2::stable

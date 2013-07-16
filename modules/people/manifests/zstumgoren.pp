@@ -29,6 +29,7 @@ class people::zstumgoren {
     target => "${dotfiles}/tmux.conf",
   }
 
+  # bash
   file { '/Users/stumgoren/.bashrc':
     ensure => 'link',
     target => "${dotfiles}/mac/bashrc",
@@ -37,6 +38,18 @@ class people::zstumgoren {
   file { '/Users/stumgoren/.bash_aliases':
     ensure => 'link',
     target => "${dotfiles}/mac/bash_aliases",
+  }
+
+
+  # vim
+  file { '/Users/stumgoren/.vimrc.before':
+    ensure => 'link',
+    target => "${dotfiles}/mac/vimrc.before",
+  }
+
+  file { '/Users/stumgoren/.vimrc.after':
+    ensure => 'link',
+    target => "${dotfiles}/mac/vimrc.after",
   }
 
   repository {

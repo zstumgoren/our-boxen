@@ -34,6 +34,7 @@ github "sudo",       "1.0.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 #github "chrome",     "28.0.1500.71"
+#github "bash",        "1.1.0"
 github "cyberduck",   "1.0.0"
 github "dropbox",     "1.1.1"
 github "iterm2",      "1.0.2"
