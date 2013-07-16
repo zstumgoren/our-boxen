@@ -9,6 +9,7 @@ class people::zstumgoren::applications {
   include powerline
   include python
   include xquartz
+  include sequel_pro
   include sysctl
   include tmux
   include virtualbox
