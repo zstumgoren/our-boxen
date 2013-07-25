@@ -2,13 +2,19 @@ class people::zstumgoren {
 
   include people::zstumgoren::applications
 
-  $home     = '/Users/$name'
+  $home     = "/Users/${::luser}"
+  $bin      = '/Users/stumgoren/bin'
   $code     = '/Users/stumgoren/code'
   $dotfiles = '/Users/stumgoren/code/dotfiles'
+  $ruby     = '/Users/stumgoren/code/ruby'
+  $ap       = '/Users/stumgoren/code/ruby/ap'
 
   $mydirs = [
-    '/Users/stumgoren/code/',
-    '/Users/stumgoren/bin/',
+    $bin,
+    $code,
+    $dotfiles,
+    $ruby,
+    $ap,
   ]
 
   file { $mydirs:
