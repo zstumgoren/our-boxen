@@ -1,4 +1,5 @@
 class people::zstumgoren::applications {
+  include adium
   #include bash
   #include bash::completion
   include cyberduck
