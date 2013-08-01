@@ -15,6 +15,7 @@ class people::zstumgoren::applications {
   include sequel_pro
   include sysctl
   include tmux
+  include vagrant
   include virtualbox
   include wget
 }
