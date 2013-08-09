@@ -4,6 +4,7 @@ class people::zstumgoren::applications {
   #include bash::completion
   include cyberduck
   include dropbox
+  include imagemagick
   include iterm2::stable
   include mongodb
   include mysql
