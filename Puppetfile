@@ -12,18 +12,20 @@ end
 
 # Includes many of our custom types and providers, as well as global
 # config. Required.
-
 github "boxen", "2.1.0"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
+github "autoconf",   "1.0.0"
 github "dnsmasq",    "1.0.0"
 github "gcc",        "1.0.0"
 github "git",        "1.2.2"
+github "ghostscript","1.0.0"
 github "homebrew",   "1.1.2"
 #github "hub",        "1.0.0"
 github "inifile",    "0.9.0", :repo => "cprice404/puppetlabs-inifile"
+github "libtool",     "1.0.0"
 #github "nginx",      "1.4.0"
 #github "nodejs",     "2.2.0"
 github "repository", "2.0.2"
@@ -43,9 +45,10 @@ github "iterm2",      "1.0.2"
 #github "googledrive"
 #github "java"
 #github "mongodb",      "1.0.4"
-github "mongodb",      "1.0.4", :repo => "zstumgoren/puppet-mongodb"
-github "mysql",	       "1.1.3"
+github "mongodb",      "1.0.4.1", :repo => "zstumgoren/puppet-mongodb"
+github "mysql",	       "1.1.3.1", :repo => "zstumgoren/puppet-mysql"
 #github "pgadmin3",    "0.0.3"
+github "pdftk",        "1.1.0", :repo => "concordia-publishing-house/puppet-pdftk"
 github "postgresql",   "1.0.4"
 github "powerline",    "1.0.0", :repo => "jfelchner/puppet-powerline"
 github "python",       "1.2.1"
@@ -59,4 +62,5 @@ github "virtualbox",  "1.0.5"
 #github "vim"
 github "wget",        "1.0.0"			
 github "xquartz",     "1.1.0"
+github "xpdf",        "1.0.0"
 #github "zsh"

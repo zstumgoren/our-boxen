@@ -19,4 +19,5 @@ class people::zstumgoren::applications {
   include vagrant
   include virtualbox
   include wget
+  include xpdf
 }
